@@ -14,7 +14,6 @@ const Homepage = () => {
   return (
     <>
 
-
 <Carousel fade>
       <Carousel.Item>
         <img
