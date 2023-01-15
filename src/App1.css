@@ -1,0 +1,33 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.signin {
+  width: 500px;
+  min-height: 450px;
+}
+
+.signin_success h1 {
+  letter-spacing: 1px;
+}
+.signin_success p {
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+.error_msg {
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+span.signup {
+  color: #ffffffde;
+  cursor: pointer;
+}
