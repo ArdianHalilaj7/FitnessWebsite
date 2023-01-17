@@ -18,6 +18,7 @@ const SubmitForm = () => {
         <Fade delay={500}>
             <div style={myStyle}>
             <h1> Miresevini! </h1>
+            <p>Ju jeni kyqur me sukses</p>
             </div>
         </Fade>
     )
