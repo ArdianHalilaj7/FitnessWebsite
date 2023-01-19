@@ -4,8 +4,6 @@ import {Container, Nav, Navbar, NavDropdown, Figure} from 'react-bootstrap';
 import '../mysass.scss';
 
 
-
-
 const Layout = () => {
   return (
 
@@ -40,6 +38,13 @@ const Layout = () => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+
+    {/* <div class="inner">
+        <div class="popup-footer">
+             FOOTER
+        </div>
+</div>  */}
 
 
 
