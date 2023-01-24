@@ -8,7 +8,7 @@ const Food = () => {
 
 
     const getApiData = async () => {
-        const response = await fetch ("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita").then((response) => response.json())
+        const response = await fetch ("https://jsonplaceholder.typicode.com/todos").then((response) => response.json())
         setTasks(response );
     }
 
@@ -22,13 +22,12 @@ const Food = () => {
         <Row>
             {
                 tasks && tasks.map((task) => (
-                    <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src="holder.js/100px180" />
+                    <Col sm={12} lg={6} md={4}>
+                    <Card style={{backgroundColor : task.completed ? "#32CD32" : "gray"}}>
                             <Card.Body>
                                 <Card.Title>{task.title}</Card.Title>
                                 <Card.Text>
-                                    {/* Task Completed : {task.completed} */}
+                                    Task Completed : {task.completed ? "YES" : "NO"}
                                 </Card.Text>
                         </Card.Body>
                    </Card>
