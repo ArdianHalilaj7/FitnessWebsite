@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Card, CardGroup, PageHeader} from 'react-bootstrap';
+import {Button, Card, CardGroup, Nav} from 'react-bootstrap';
 import '../mysass.scss';
 
 
@@ -27,18 +27,20 @@ const AboutUs = () => {
       <Card.Text>
         <h5 className='h5bio'><b>CEO & Founder</b></h5>
       </Card.Text>
-      <Button variant="primary">Read More</Button>
+      <br/>
+      <b>Read More: </b> <Button variant="primary"><Nav.Link href="/ardian">Biography</Nav.Link></Button>
     </Card.Body>
     </Card>
 
     <Card className='cardaboutus'>
-    <Card.Img variant="top" className='cardimgaboutus' src="https://i.pinimg.com/originals/4e/89/c6/4e89c6fda820d637fc6d07a3a30650c4.jpg"  />
+    <Card.Img  variant="top" className='cardimgaboutus' src="https://i.pinimg.com/originals/4e/89/c6/4e89c6fda820d637fc6d07a3a30650c4.jpg"  />
     <Card.Body>
       <Card.Title><h3>Lazar Angelov</h3></Card.Title>
       <Card.Text>
         <h5 className='h5bio'><b>Personal Trainer</b></h5>
       </Card.Text>
-      <Button variant="primary">Read More</Button>
+      <br/>
+      <b>Read More: </b><Button variant="primary"><Nav.Link href="/lazar">Biography</Nav.Link></Button>
     </Card.Body>
     </Card>
 
@@ -49,7 +51,8 @@ const AboutUs = () => {
       <Card.Text>
         <h5 className='h5bio'><b>Personal Trainer</b></h5>
       </Card.Text>
-      <Button variant="primary">Read More</Button>
+      <br/>
+      <b>Read More: </b><Button variant="primary"><Nav.Link href="/shaun">Biography</Nav.Link></Button>
     </Card.Body>
     </Card>
 
