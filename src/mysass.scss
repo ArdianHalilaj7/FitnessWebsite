@@ -9,10 +9,39 @@ img.d-block{
 .imgcard{
     height: 500px;
     object-fit: cover;
+}
+
+.h5bio {
+    color: darkslategray;
+}
+
+.cardaboutus{
+    margin: 30px;
+    margin-top: 0;
+}
+
+.cardimgaboutus{
+    height: 600px;
+    object-fit: cover;
 
 }
- main{
-    min-height: 80rem;
- }
 
+.cardaboutusardian{
+    margin: 30px;
+    margin-top: 25px;
+}
+
+.cardimgardian{
+    width: 100px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.h5biography{
+    color: gray;
+}
+
+.h4biography{
+    color: white;
+}
 

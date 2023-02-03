@@ -11,8 +11,9 @@ function Footer() {
   return (
 
     <MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-5 border-bottom' style={{backgroundColor:'white'}}>
-
+      <section 
+      className='d-flex justify-content-center justify-content-lg-between p-5 border-bottom' 
+      style={{backgroundColor:'white'}}>
       </section>
 
       <section className='' style={{color:'light'}}>
@@ -30,15 +31,21 @@ function Footer() {
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Produktet</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
                 <a href='#!' className='text-reset'>
-                  React
+                  React JS
                 </a>
               </p>
               <p>
                 <a href='#!' className='text-reset'>
-                  Bootstrap
+                  Bootstrap 5
+                </a>
+              </p>
+
+              <p>
+                <a href='#!' className='text-reset'>
+                  Sass
                 </a>
               </p>
             </MDBCol>
@@ -46,7 +53,7 @@ function Footer() {
             
 
             <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Kontakti</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
               <p>
                 <MDBIcon icon="home" className="me-2" />
                 Prishtinë, 10000, Kosovë

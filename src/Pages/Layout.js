@@ -13,6 +13,7 @@ const Layout = () => {
       <Container>
       <Figure>
       <Figure.Image style={{marginTop:'25px'}}
+        href='/'
         width={70}
         height={70}
         src="logo1.jpg"
@@ -22,32 +23,23 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#">Food</Nav.Link>
+            <Nav.Link href="/food">Food <sup>Services</sup></Nav.Link>
             <Nav.Link href="#">Workouts</Nav.Link>
             <Nav.Link href="#">Shop</Nav.Link>
-            <NavDropdown title="About" id="collasible-nav-dropdown">
+            <Nav.Link href="/aboutus">About Us</Nav.Link>
+            {/* <NavDropdown title="About" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#">Weight Loss</NavDropdown.Item>
               <NavDropdown.Item href="#">Weight Gain</NavDropdown.Item>
               <NavDropdown.Item href="#">Sleep</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#">Contact</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
-    {/* <div class="inner">
-        <div class="popup-footer">
-             FOOTER
-        </div>
-</div>  */}
-
-
-
 
 
     <Outlet/>
