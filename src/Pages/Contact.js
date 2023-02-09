@@ -12,8 +12,7 @@ const Contact = () => {
     <h1>Ardian</h1>
     <h1>Ardian</h1>
     <h1>Ardian</h1>
-    <h1>Ardian</h1>
-    <h1>Ardian</h1>
+
     
     
     </>
