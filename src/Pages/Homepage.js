@@ -1,5 +1,5 @@
 import React from 'react'
-import {Carousel, Button, Card, CardGroup, Accordion, NavDropdown } from 'react-bootstrap';
+import {Carousel, Button, Card, CardGroup, Accordion } from 'react-bootstrap';
 import { Outlet } from 'react-router-dom';
 import '../mysass.scss';
 
