@@ -12,7 +12,7 @@ const styles = {
     objectFit: 'cover',
     borderRadius: 50,
     maxWidth: '400px',
-    minWidth: '200px'
+    minWidth: '100px'
   }
 }
 
@@ -33,12 +33,12 @@ const Ardian = () => {
                 <Card.Title style={{marginLeft:'-20px'}}><Button variant="dark" size="lg"> CEO & Founder</Button></Card.Title>
                 <br/>
                 <Card.Text as="h4" style={styles.cardText}>
-                  <h5 className='h5biography'>Name:</h5><h4 className='h4biography'>Ardian</h4>
-                  <h5 className='h5biography'>Surname:</h5><h4 className='h4biography'>Halilaj</h4>
-                  <h5 className='h5biography'>Birth:</h5><h4 className='h4biography'>11/09/2001</h4>
-                  <h5 className='h5biography'>Address:</h5><h4 className='h4biography'>Prishtinë, 10000, Kosovë</h4>
-                  <h5 className='h5biography'>Tel:</h5><h4 className='h4biography'>+383 44 123 123</h4>
-                  <h5 className='h5biography'>eMail:</h5><h4 className='h4biography'>ardi@halilaj.org</h4>
+                  <h6 className='h5biography'>Name:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>Ardian</h4>
+                  <h6 className='h5biography'>Surname:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>Halilaj</h4>
+                  <h6 className='h5biography'>Birth:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>11/09/2001</h4>
+                  <h6 className='h5biography'>Address:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>Prishtinë, 10000, Kosovë</h4>
+                  <h6 className='h5biography'>Tel:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>+383 44 123 123</h4>
+                  <h6 className='h5biography'>eMail:</h6><h4 style={{fontSize:'14px'}} className='h4biography'>ardi@halilaj.org</h4>
                 </Card.Text>
 
                 </Card.Body>

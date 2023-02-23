@@ -23,9 +23,9 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/food">Food <sup>Services</sup></Nav.Link>
-            <Nav.Link href="#">Workouts</Nav.Link>
-            <Nav.Link href="#">Shop</Nav.Link>
+            <Nav.Link href="/food">Food</Nav.Link>
+            <Nav.Link href="/workouts">Workouts</Nav.Link>
+            <Nav.Link href="/shop">Shop</Nav.Link>
             <Nav.Link href="/aboutus">About Us</Nav.Link>
             {/* <NavDropdown title="About" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#">Weight Loss</NavDropdown.Item>

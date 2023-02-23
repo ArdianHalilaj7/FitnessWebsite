@@ -110,7 +110,7 @@ const Homepage = () => {
       <Card>
         <Card.Img variant="top" src="motivation2.jpg" className='imgcard'/>
         <Card.Body>
-          <Card.Title>Feed your Focus</Card.Title>
+          <Card.Title>Keep Going</Card.Title>
         </Card.Body>
       </Card>
 

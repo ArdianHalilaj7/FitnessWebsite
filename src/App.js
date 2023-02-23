@@ -10,6 +10,10 @@ import AboutUs from './Pages/AboutUs';
 import Ardian from './Pages/Ardian';
 import Lazar from './Pages/Lazar';
 import Shaun from './Pages/Shaun';
+import WeightLoss from './Pages/WeightLoss';
+import WeightGain from './Pages/WeightGain';
+import Workouts from './Pages/Workouts';
+import Shop from './Pages/Shop';
 
 
 
@@ -28,6 +32,10 @@ function App() {
       <Route path='ardian' element={<Ardian/>}/>
       <Route path='lazar' element={<Lazar/>}/>
       <Route path='shaun' element={<Shaun/>}/>
+      <Route path='weightloss' element={<WeightLoss/>}/>
+      <Route path='weightgain' element={<WeightGain/>}/>
+      <Route path='workouts' element={<Workouts/>}/>
+      <Route path='shop' element={<Shop/>}/>
 
 
       {/* <Route path='*' element={<NoPage/>}/> */}
