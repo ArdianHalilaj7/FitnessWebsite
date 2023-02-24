@@ -146,7 +146,130 @@ const Shop = () => {
 
             </Row>
           </Card>
+        </CardGroup>        
+        
+        <CardGroup className="m-5 d-block">
+          <Card className="m-5 border-0 shadow" style={styles.card}>
+            <Row>
+              <Col>
+                <Card.Img src="collagen.jpg" style={styles.cardImage} />
+              </Col>
+              <Col>
+                <Card.Body>
+                <Card.Title style={{marginLeft:'-20px'}}><Button variant="dark" size="lg">COLLAGEN +</Button></Card.Title>
+                <br/>
+                <Card.Text as="h4" style={styles.cardText}>
+                  <h6 className='h5biography'>Size:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>390g</h4>
+                  <h6 className='h5biography'>Flavour:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>Mango Ice</h4>
+                  <h6 className='h5biography'>Protein Information:</h6>
+                  <h6 style={{fontSize:'14px'}} className='h4biography'>
+                  Collagen is an abundantly found protein in our body, with health 
+                  benefits ranging from tissue repair, reduced inflammation, 
+                  improved gut health and skin regeneration. As we age, the ability of the body to 
+                  produce collagen decreases.
+                  </h6>
+                  <br/>
+                  <h5 className='h5biography'>Price:</h5><h4 style={{fontSize:'18px'}} className='h4biography'>
+                    <Button><b>$59.90</b></Button></h4>
+                </Card.Text>
+                </Card.Body>
+              </Col>
+            </Row>
+          </Card>
         </CardGroup>
+
+        <CardGroup className="m-5 d-block">
+          <Card className="m-5 border-0 shadow" style={styles.card}>
+            <Row>
+              <Col>
+                <Card.Img src="musclegain.jpg" style={styles.cardImage} />
+              </Col>
+              <Col>
+                <Card.Body>
+                <Card.Title style={{marginLeft:'-20px'}}><Button variant="dark" size="lg">MUSCLE GAIN: POWER STACK</Button></Card.Title>
+                <br/>
+                <Card.Text as="h4" style={styles.cardText}>
+                  <h6 className='h5biography'>Size:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>240g + 100g</h4>
+                  <h6 className='h5biography'>Flavour:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>Cirtus Clash</h4>
+                  <h6 className='h5biography'>Protein Information:</h6>
+                  <h6 style={{fontSize:'14px'}} className='h4biography'>
+                  Achieve peak performance with our best-selling pre workout powder combined 
+                  with the super concentrated Creatine HCL. 
+
+
+                  </h6>
+                  <br/>
+                  <h5 className='h5biography'>Price:</h5><h4 style={{fontSize:'18px'}} className='h4biography'>
+                  <Button><b><del style={{color:'red'}}><i>$129.90</i></del> to $99.90</b></Button></h4>
+                </Card.Text>
+                </Card.Body>
+              </Col>
+            </Row>
+          </Card>
+        </CardGroup>
+
+        <CardGroup className="m-5 d-block">
+          <Card className="m-5 border-0 shadow" style={styles.card}>
+            <Row>
+              <Col>
+                <Card.Img src="turkesterone.jpg" style={styles.cardImage} />
+              </Col>
+              <Col>
+                <Card.Body>
+                <Card.Title style={{marginLeft:'-20px'}}><Button variant="dark" size="lg">TURKESTERONE + CREATINE HCL</Button></Card.Title>
+                <br/>
+                <Card.Text as="h4" style={styles.cardText}>
+                  <h6 className='h5biography'>Size:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>100g + 60 Capsules</h4>
+                  <h6 className='h5biography'>Flavour:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>Creatine</h4>
+                  <h6 className='h5biography'>Protein Information:</h6>
+                  <h6 style={{fontSize:'14px'}} className='h4biography'>
+                  Achieve peak performance with our best-selling pre workout powder combined 
+                  with the super concentrated Creatine HCL. 
+
+
+                  </h6>
+                  <br/>
+                  <h5 className='h5biography'>Price:</h5><h4 style={{fontSize:'18px'}} className='h4biography'>
+                  <Button><b><del style={{color:'red'}}><i>$159.90</i></del> to $129.90</b></Button></h4>
+                </Card.Text>
+                </Card.Body>
+              </Col>
+            </Row>
+          </Card>
+        </CardGroup>
+
+        <CardGroup className="m-5 d-block">
+          <Card className="m-5 border-0 shadow" style={styles.card}>
+            <Row>
+              <Col>
+                <Card.Img src="preshred.jpg" style={styles.cardImage} />
+              </Col>
+              <Col>
+                <Card.Body>
+                <Card.Title style={{marginLeft:'-20px'}}><Button variant="dark" size="lg">PRE SHRED & L-CARNITINE + FREE SHAKER</Button></Card.Title>
+                <br/>
+                <Card.Text as="h4" style={styles.cardText}>
+                  <h6 className='h5biography'>Size:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>240g + 600ml + 250g </h4>
+                  <h6 className='h5biography'>Flavour:</h6><h4 style={{fontSize:'18px'}} className='h4biography'>Blue Crash & Creatine</h4>
+                  <h6 className='h5biography'>Protein Information:</h6>
+                  <h6 style={{fontSize:'14px'}} className='h4biography'>
+                  Get an extra fat burning boost when you combine these two together! 
+                  L-carnitine is one of the popular ingredients in any fat burner. 
+                  It promotes thermogenesis and increases fat metabolism. 
+                  Stacking it along with a traditional fat burner like Pre Shred can 
+                  give an additional boost to your weight loss journey! 
+                  </h6>
+                  <br/>
+                  <h5 className='h5biography'>Price:</h5><h4 style={{fontSize:'18px'}} className='h4biography'>
+                  <Button><b>$104.90</b></Button></h4>
+                </Card.Text>
+                </Card.Body>
+              </Col>
+            </Row>
+          </Card>
+        </CardGroup>
+
+
 
         
 
