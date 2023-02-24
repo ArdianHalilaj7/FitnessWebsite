@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Button} from 'react-bootstrap';
+import {Card, Button, Nav} from 'react-bootstrap';
 import '../mysass.scss';
 
 const Workouts = () => {
@@ -12,7 +12,7 @@ const Workouts = () => {
       <Card.ImgOverlay>
         <Card.Title style={{fontSize:'25px'}}>BICEPS</Card.Title>
         <Card.Text>
-        Click here for more biceps videos: <Button variant="outline-light">Go Train Biceps</Button>
+        Click here for more biceps videos: <Button variant="outline-light"><Nav.Link href="/biceps">Go Train Biceps</Nav.Link></Button>
         </Card.Text>
       </Card.ImgOverlay>
     </Card>

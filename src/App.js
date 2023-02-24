@@ -14,6 +14,7 @@ import WeightLoss from './Pages/WeightLoss';
 import WeightGain from './Pages/WeightGain';
 import Workouts from './Pages/Workouts';
 import Shop from './Pages/Shop';
+import Biceps from './Pages/Biceps';
 
 
 
@@ -36,6 +37,7 @@ function App() {
       <Route path='weightgain' element={<WeightGain/>}/>
       <Route path='workouts' element={<Workouts/>}/>
       <Route path='shop' element={<Shop/>}/>
+      <Route path='biceps' element={<Biceps/>}/>
 
 
       {/* <Route path='*' element={<NoPage/>}/> */}
